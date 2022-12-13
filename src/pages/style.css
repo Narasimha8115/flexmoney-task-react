@@ -1,0 +1,68 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+.header {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 10px 3px #c7c5c5;
+}
+
+ 
+.logo-container {
+
+    font-size: 25px;
+    color: rgb(180, 77, 96);
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+
+.options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.option {
+      text-decoration: none;
+      color: Black;
+      font-size: 18px;
+      font-weight: 400;
+      padding: 10px 15px;
+      cursor: pointer;
+}
+
+.card-page{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.option-name{
+    font-size: 18px;
+    font-weight: 500;
+}
+.message{
+    font-size: 1.2em;
+    text-align: center;
+    color: #36a936;
+    
+}
+.payment{
+    display: flex;
+    justify-content: center;
+   
+    margin-top: 40px;
+}
+
+.card-payment{
+    display: flex;
+    justify-content: center;
+    
+}
